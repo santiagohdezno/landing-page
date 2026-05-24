@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>My Landing Page</title>
   </head>
 
   <body>
     <header class="container">
-      <h1>SANTIAGO HERNANDEZ NORIEGA</h1>
-      <h3>Controls Engineer | Software Development</h3>
-    </header>
-
-    <nav class="container">
+      <div id="main-header">
+        <h1>SANTIAGO HERNANDEZ NORIEGA</h1>
+        <h3>Controls Engineer | Software Development</h3>
+      </div>
       <a href="#about-me">About Me</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+      <button id="contact">Contact Me</button>
+    </header>
 
     <main class="container">
       <p class="welcome">
@@ -70,13 +75,6 @@
         <h2>MY PROJECTS</h2>
         <p class="text-lg">Right now there is no projects. Sorry!</p>
       </section>
-
-      <section id="contact" class="text-sm">
-        <h2>CONTACT</h2>
-        <p>✉️ santiagohdezno@hotmail.com</p>
-        <p><a href="https://www.linkedin.com/in/santiagohdezno">LinkedIn</a></p>
-        <p><a href="https://github.com/santiagohdezno">GitHub</a></p>
-      </section>
     </main>
 
     <footer class="container">
@@ -84,6 +82,21 @@
         <p>© 2026 Santiago Hernández</p>
         <p>Hermosillo, Sonora, Mexico</p>
       </div>
+      <div>
+        <p>✉️ santiagohdezno@hotmail.com</p>
+        <p><a href="https://www.linkedin.com/in/santiagohdezno">LinkedIn</a></p>
+        <p><a href="https://github.com/santiagohdezno">GitHub</a></p>
+      </div>
     </footer>
+
+    <div id="modal" class="hidden">
+      <div id="modal-content">
+        <button id="modal-close">✕</button>
+        <h2>Contact Me</h2>
+        <p>✉️ santiagohdezno@hotmail.com</p>
+        <p><a href="https://www.linkedin.com/in/santiagohdezno">LinkedIn</a></p>
+        <p><a href="https://github.com/santiagohdezno">GitHub</a></p>
+      </div>
+    </div>
   </body>
 </html>
