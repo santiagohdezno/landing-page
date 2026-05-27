@@ -79,6 +79,15 @@ header {
   border-radius: 20px;
 }
 
+#weather-widget {
+  font-size: 14px;
+  color: #60a5fa;
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 6px 14px;
+  margin-left: auto;
+}
+
 #show-contact {
   background-color: var(--color-accent);
   color: #111111;
@@ -89,7 +98,7 @@ header {
   font-size: 15px;
   cursor: pointer;
   font-weight: 500;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .modal {
