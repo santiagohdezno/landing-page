@@ -232,3 +232,44 @@ footer a {
   color: var(--color-accent);
   font-size: 12px;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 20px;
+  }
+
+  #nav-links {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  #weather-widget {
+    margin-left: 0;
+  }
+
+  #show-contact {
+    margin-left: 0;
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  #footer-left {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
