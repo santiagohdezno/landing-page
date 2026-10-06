@@ -4,9 +4,6 @@ My personal landing page, built from scratch with vanilla HTML, CSS and JavaScri
 
 🔗 **Live demo:** https://santiagohdezno.github.io/landing-page/
 
-<!-- Add a screenshot: save it as screenshot.png in the repo root and uncomment the line below -->
-<!-- ![Landing page screenshot](screenshot.png) -->
-
 ## Features
 
 - **Live weather** for Hermosillo, fetched from the [Open-Meteo API](https://open-meteo.com/) with a fallback if the request fails
