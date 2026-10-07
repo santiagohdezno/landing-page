@@ -42,4 +42,5 @@ Open `index.html` in your browser. No build step or dependencies needed.
 ## Author
 
 **Santiago Hernandez** · Full Stack JavaScript Developer in training
+
 [LinkedIn](https://www.linkedin.com/in/santiagohdezno) · [GitHub](https://github.com/santiagohdezno)
